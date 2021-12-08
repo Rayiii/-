@@ -1,0 +1,29 @@
+<!--pages/demo/demo.wxml-->
+<!-- <text>这是一个测试</text>
+<view>打5把csgo</view> -->
+<view>{{message}}</view>
+<text>武理是不是野鸡大学</text>
+<view>
+<checkbox checked = "{{isChecked}}"></checkbox>
+</view>
+<view>
+<view 
+wx:for="{{list}}"
+wx:for-item="item"
+wx:for-index="index"
+wx:key="id"
+>
+索引：{{index}}
+——————
+值：{{item.name}}
+</view>
+</view>
+
+<view>
+<view>对象循环</view>
+<view wx:for="{{wuli}}" wx:for-item="value" wx:for-index="key" wx:key="age">
+属性：{{key}}
+————
+值：{{value}}
+</view>
+</view>

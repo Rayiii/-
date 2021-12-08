@@ -1,0 +1,53 @@
+{
+  "pages":[
+    "pages/demo2/demo2",
+    "pages/demo1/demo1",
+    "pages/demo0/demo0",
+    "pages/index/index",
+    
+    "pages/定位/定位",
+    "pages/规划/规划",
+    "pages/文案/文案",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#0094ff",
+    "navigationBarTitleText": "蕲遇记",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh":true,
+    "backgroundColor":"#B0C4DE"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "icontmp/多方案icon (a1).png",
+      "selectedIconPath": "icontmp/多方案icon (a2).png"
+    },
+    {
+      "pagePath": "pages/定位/定位",
+      "text": "定位",
+      "iconPath": "icontmp/多方案icon (b1).png",
+      "selectedIconPath": "icontmp/多方案icon (b2).png"
+    },
+    {
+      "pagePath": "pages/规划/规划",
+      "text": "规划",
+      "iconPath": "icontmp/多方案icon (c1).png",
+      "selectedIconPath": "icontmp/多方案icon (c2).png"
+    },
+    {
+      "pagePath": "pages/文案/文案",
+      "text": "文案",
+      "iconPath": "icontmp/多方案icon (d1).png",
+      "selectedIconPath": "icontmp/多方案icon (d2).png"
+    }
+    ],
+    "color": "#87CEFA",
+    "selectedColor": "#1E90FF",
+    "backgroundColor": "#F0F8FF"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

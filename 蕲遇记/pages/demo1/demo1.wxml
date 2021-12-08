@@ -1,0 +1,16 @@
+<input type="text" bindinput="handleInput"/>
+<view>
+    {{num}}
+</view>
+<button class="default" size="default" type="default" plain="default"  
+    hover-class="button-hover" hover-stop-propagation="false" bindtap="handleTap"data-oper="{{1}}"
+     form-type="submit|reset" open-type="contact|share|getUserInfo|openSetting|feedback" >
+    +
+</button>
+<view>  
+</view>
+<button class="default" size="default" type="default" plain="default"
+    hover-class="button-hover" hover-stop-propagation="false" bindtap="handleTap"data-oper="{{-1}}"
+     form-type="submit|reset" open-type="contact|share|getUserInfo|openSetting|feedback" >
+    -
+</button>
